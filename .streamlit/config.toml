@@ -1,0 +1,6 @@
+[server]
+port = 8501  # Standard port for Streamlit
+enableCORS = false  # Disable for local webcam access
+enableXsrfProtection = false  # Needed for some CV operations
+maxUploadSize = 50  # Max file upload size in MB
+maxMessageSize = 50  # Max websocket message size in MB
