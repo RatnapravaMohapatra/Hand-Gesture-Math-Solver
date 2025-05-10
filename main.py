@@ -1,6 +1,10 @@
-import cvzone
-import cv2
-from cvzone.HandTrackingModule import HandDetector
+try:
+    from cvzone.HandTrackingModule import HandDetector
+except ImportError:
+    import sys
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "cvzone"])
+    from cvzone.HandTrackingModule import HandDetector
 import numpy as np
 import google.generativeai as genai
 from PIL import Image
