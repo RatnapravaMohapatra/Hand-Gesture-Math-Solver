@@ -1,14 +1,17 @@
-try:
-    from cvzone.HandTrackingModule import HandDetector
-except ImportError:
-    import sys
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "cvzone"])
-    from cvzone.HandTrackingModule import HandDetector
+import cv2
+import cvzone
 import numpy as np
 import google.generativeai as genai
 from PIL import Image
 import streamlit as st
+
+st.markdown("""
+<style>
+    button[title^=Exit]+button[title^=Exit] {
+        display: none
+    }
+</style>
+""", unsafe_allow_html=True)
 
 # Set the page configuration
 st.set_page_config(layout="wide")
