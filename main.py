@@ -81,7 +81,7 @@ with col2:
     st.markdown('<p class="author">Made by RATNAPRAVA MOHAPATRA</p>', unsafe_allow_html=True)
 
 # Configure the generative AI model
-genai.configure(api_key="AIzaSyABuF2mybjDu1KSixpoeEO7BakU7NI7uyA")
+genai.configure(api_key="AIzaSyC1-KxZ89Jdt741SCrvkI79Ut8n5jEv7IE")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Initialize the webcam to capture video
