@@ -38,16 +38,16 @@ This work successfully bridges the gap between natural human interaction paradig
 
 ## Getting Started
 
-Instructions on how to set up and run the project will be provided here. This may include:
+Instructions on how to set up and run the project will be provided here.Including:
 
 * Prerequisites (e.g., Python version, required libraries).
 * Installation steps (e.g., cloning the repository, installing dependencies using pip).
 * Instructions on how to run the Streamlit application.
-* Configuration details (if any, such as API keys).
+* Configuration  ( API keys).
 
 ```bash
-# Example installation steps (replace with your actual instructions)
-git clone [https://github.com/your-username/your-repository.git](https://github.com/your-username/your-repository.git)
-cd your-repository
+# Example installation steps 
+git clone [https://github.com/RatnapravaMohapatra/Hand-Gesture-Math-Solver/blob/main/main.py]
+cd -repository
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run main.py
