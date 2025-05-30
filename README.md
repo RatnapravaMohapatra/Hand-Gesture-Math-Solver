@@ -54,12 +54,5 @@ streamlit run main.py
 
 
 
-
-
-
-
-
-
-
-https://github.com/user-attachments/assets/7168829f-ca4f-49e3-9118-cdae10e2ad0d
+https://github.com/user-attachments/assets/bb572423-11d8-4aa6-93c2-788d2efa4649
 
