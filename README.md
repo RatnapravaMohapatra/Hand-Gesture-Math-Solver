@@ -45,14 +45,22 @@ Instructions on how to set up and run the project will be provided here.Includin
 * Instructions on how to run the Streamlit application.
 * Configuration  ( API keys).
 
+
+
+![Screenshot 2025-05-11 100558](https://github.com/user-attachments/assets/f4edd683-6ce7-4f0e-8dcc-94a7f3fd3320)
+
+
+
+
+![Screenshot 2025-05-11 171740](https://github.com/user-attachments/assets/57258b45-d155-43cd-80a3-5e69ca0181cb)
+
+
+![Screenshot 2025-05-11 172626](https://github.com/user-attachments/assets/9052faf2-d741-4b9c-9721-e2f517bea587)
+
 ```bash
 # Example installation steps 
 git clone [https://github.com/RatnapravaMohapatra/Hand-Gesture-Math-Solver/blob/main/main.py]
 cd -repository
 pip install -r requirements.txt
 streamlit run main.py
-
-
-
-https://github.com/user-attachments/assets/bb572423-11d8-4aa6-93c2-788d2efa4649
 
